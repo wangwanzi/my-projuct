@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view>
+    <swiper class='swipers' indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' circular='{{circular}}' duration='{{duration}}' indicator-color='{{beforColor}}' indicator-active-color='{{afterColor}}' style='height:382rpx;'>
+        <block wx:for="{{imgs}}">
+            <swiper-item>
+                <image src='{{item.url}}'></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<!--banner-->
+<view class='index-button'>自助点餐</view>
+<!--按钮-->
+<view>
+    <view class='list'>
+        <view class='list-fl'>
+            <image src='../../image/index/indexicon_03.png'></image>
+            <text>预约</text>
+        </view>
+        <view class='list-fr'>
+            <text>预约订单</text>
+            <image src='../../image/index/next.png'></image>
+        </view>
+    </view>
+    <!--预约-->
+    <view class='list'>
+        <view class='list-fl'>
+            <image src='../../image/index/indexicon_07.png'></image>
+            <text>卡包</text>
+        </view>
+        <view class='list-fr'>
+            <text>更多优惠券</text>
+            <image src='../../image/index/next.png'></image>
+        </view>
+    </view>
+    <!--预约-->
+    <view class='list'>
+        <view class='list-fl'>
+            <image src='../../image/index/indexicon_11.png'></image>
+            <text>订单</text>
+        </view>
+        <view class='list-fr'>
+            <text>查看订单</text>
+            <image src='../../image/index/next.png'></image>
+        </view>
+    </view>
+    <!--预约-->
+    <view class='list'>
+        <view class='list-fl'>
+            <image src='../../image/index/indexicon_14.png'></image>
+            <text>积分商城</text>
+        </view>
+        <view class='list-fr'>
+            <text>更多产品</text>
+            <image src='../../image/index/next.png'></image>
+        </view>
+    </view>
+    <!--预约-->
+</view>
+<!--四个模块-->

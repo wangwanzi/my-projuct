@@ -1,0 +1,74 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+/*王小厨自助点餐开始*/
+
+swiper-item image{
+    width: 100%;
+}
+.index-button{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 45rpx;
+    background: #e59625;
+    border:1px solid #e59625;
+    color: #fff;
+    font-size: 36rpx;
+    text-align: center;
+    line-height: 88rpx;
+    border-radius: 10rpx;
+    margin-bottom: 70rpx;
+}
+.list{
+    overflow: hidden;
+    border-bottom:1px solid #D3D0CE;
+    padding-bottom: 17rpx;
+    width: 90%;
+    margin:0 auto;
+    margin-bottom:27rpx;
+}
+.list .list-fl{
+    float: left;
+}
+.list .list-fl image{
+    width: 54rpx;
+    height:56rpx;
+    vertical-align: middle;
+}
+.list .list-fl text{
+    font-size: 34rpx;
+    color:#333;
+    margin-left: 27rpx;
+}
+.list .list-fr{
+    float: right;
+}
+.list .list-fr image{
+    width:23rpx;
+    height:36rpx;
+    vertical-align: middle;
+    padding-left:22rpx;
+}
+.list .list-fr text{
+    font-size:28rpx;
+    color:#666;
+}
+/*王小厨自助点餐结束*/
